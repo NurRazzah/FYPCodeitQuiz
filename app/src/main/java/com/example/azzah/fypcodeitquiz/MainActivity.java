@@ -78,7 +78,8 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.profile) {
             // Handle the camera action
         } else if (id == R.id.categories) {
-
+            Intent intent=new Intent(MainActivity.this, LanguageActivity.class);
+            startActivity(intent);
         } else if (id == R.id.lessons) {
 
         } else if (id == R.id.leaderboard) {

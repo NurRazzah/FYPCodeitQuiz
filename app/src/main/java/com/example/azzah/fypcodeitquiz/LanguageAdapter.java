@@ -31,9 +31,9 @@ public class LanguageAdapter extends ArrayAdapter {
         Language currentLang = lang.get(position);
         for (int i = 0; i < lang.size(); i++){
             if(i%2 == 0) {
-                btnLang.setText(currentLang.getName());
+                btnLang.setText(currentLang.getCatName());
             } else {
-                btnLang2.setText(currentLang.getName());
+                btnLang2.setText(currentLang.getCatName());
             }
         }
         //bb

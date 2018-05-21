@@ -1,12 +1,12 @@
 package com.example.azzah.fypcodeitquiz;
 
 public class Language {
-    private String name;
+    private String catName;
 
-    public Language(String name) {
-        this.name = name;
+    public Language(String catName) {
+        this.catName = catName;
     }
-    public String getName() {
-        return name;
+    public String getCatName() {
+        return catName;
     }
 }
