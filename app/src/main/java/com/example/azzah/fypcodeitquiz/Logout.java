@@ -18,7 +18,7 @@ public class Logout extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.login, container, false);
+        View view = inflater.inflate(R.layout.activity_logout, container, false);
 //        progressDialog = new progressDialog(this);
 
         firebaseAuth = FirebaseAuth.getInstance();
