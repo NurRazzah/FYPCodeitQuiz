@@ -81,7 +81,10 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.categories) {
 
+
         } else if (id == R.id.lessons) {
+            FragmentManager fm=getSupportFragmentManager();
+            fm.beginTransaction().replace(R.id.main, new Topics()).commit();
 
         } else if (id == R.id.leaderboard) {
 
